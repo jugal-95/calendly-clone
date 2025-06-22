@@ -37,6 +37,15 @@ data/ # Static event data
 
 ---
 
+## Note on Backend
+
+This submission does not include a backend. All data (events) is handled statically in the frontend via a mock dataset.
+
+Potential improvements include:
+- Backend integration with Node/Express or Firebase
+- Real-time booking & user authentication
+
+
 ##  Getting Started
 
 1. **Clone the repository**
