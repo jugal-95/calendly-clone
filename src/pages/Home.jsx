@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import events from "../data/events.js";
+import events from "../data/events";
 
 const Home = () => {
   return (
