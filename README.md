@@ -63,6 +63,28 @@ npm run dev
 4. Visit the app
 http://localhost:5173
 
+⚠️ Deployment Note
+This project currently does not deploy successfully on platforms like Vercel or Netlify due to an internal file name resolution issue (case sensitivity in module import).
+The app runs perfectly in local environments.
+To test locally, clone this repository and run the app using the steps below.
+GitHub Repository (with working code):
+👉 https://github.com/jugal-95/calendly-clone
+
+1. 🛠 How to Run Locally
+Clone the Repository
+git clone https://github.com/jugal-95/calendly-clone.git
+cd calendly-clone
+
+2. Install Dependencies
+   npm install
+
+3. Start the Development Server
+   npm run dev
+
+4. Open in Browser
+Visit http://localhost:5173 to view the app
+
+
 
 
 
